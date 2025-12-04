@@ -9,7 +9,6 @@ try:
 except ImportError:  # pragma: no cover
     ndi = None
 
-# Allow running as a script: python synthetic_lensing/synthetic_gui.py
 if __package__ is None or __package__ == "":
     import sys
 
